@@ -1,0 +1,234 @@
+html
+{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+
+body
+{
+margin:0;
+	background: url(../img/background.jpg), no-repeat center center fixed;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-attachment: fixed;
+    overflow: scroll;
+            -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+header 
+{	
+	margin-top: 4%;
+	margin-right: 2%;
+	margin-left: 2%;
+	text-align: center;
+}
+.alert
+{
+	padding:15px;
+	margin-bottom:20px;
+	border:1px solid transparent;
+	border-radius:4px;
+}
+.alert h4
+{
+	margin-top:0;
+	color:inherit
+}
+.alert-info{
+	color:#0918f0;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+}
+.Nav-user{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 99%;
+    background-color: rgb(116 111 111 / 13%);
+    justify-content: space-between;
+    margin: auto;
+    height: 50px;
+    align-items: stretch;
+}
+h2
+{
+	padding: 5px;
+	margin: 5px;
+}
+.pad-basic
+{
+	padding: 2px; 
+	text-align:center;
+	width: 25%;
+	margin: 0;
+}
+.pad-basic img
+{
+	heigth:8%; 
+	width:8%;
+} 
+.pad-basic a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.pad-basic a:hover
+{
+	color:#fff00f;
+} 
+.bg-primary, table
+{
+	color:#fff;
+	background-color:#0918f0;
+	margin: 5px;
+	border-radius: 3px;
+}
+th{
+	display: contents;
+}
+.btn
+{	
+	padding: 10px 10px;
+	font-size:15px;
+	border-radius:3px;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.btn-info
+{
+	background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);
+	background-image:      -o-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#5bc0de), to(#2aabd2));
+	background-image:         linear-gradient(to bottom, #5bc0de 0%, #2aabd2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	border-color: #0918f0;
+	color:#fff;
+	border-color:#0918f0;
+}
+.btn-info:hover
+{
+	color:#f0f0ff;
+	background-color:#0918f0;
+	background-position: 0 -20px;
+}
+.btn-info.active {
+  background-color: #0918f0;
+  border-color: #0918f0;
+}
+.col-xs-12 {
+  width: 80%;
+  margin: auto;
+}
+.col-xs-12{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+button{	
+	padding: 10px 10px;
+	font-size:15px;
+	border-radius:3px;
+	text-decoration: none;
+	border: 0;
+	margin: 5px;
+}
+button:hover{
+    opacity: 3;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.arts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.arts .box{
+    background: #d9edf7;
+    height: 40vh;
+    width: 30vh;
+    border: 0px;
+    border-radius: 2px;
+    color: #0918f0;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+	margin: 5px;	
+}
+
+.arts .box .acciones{
+    background: #254252;
+    height: 5vh;
+    width: 30vh;
+    border: 0px;
+    border-radius: 2px;
+    color: #EAB56F;
+    font-style: italic;
+    display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+	margin: 0px;	
+}
+
+.arts img{
+    height: 60%;
+    width: 70%;
+}
+
+.button{
+    border: 0px solid rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 5px;
+    color: #fff;
+    background-color: #0918f0;
+    border-color: #0918f0;
+    height: 20px;
+    text-decoration: none;
+}
+.button:hover{
+    opacity: 3;
+    cursor: pointer;
+}
+.button:active{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 720px) {
+  .arts {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .arts .box {
+    margin: 10px 0;
+}
+}
